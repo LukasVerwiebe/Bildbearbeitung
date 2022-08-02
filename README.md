@@ -8,11 +8,11 @@ https://lukasverwiebe.github.io/Bildbearbeitung/
 
 ## Funktionsumfang:
 
-Mit dem Programm ist es möglich eine Bild Datei anzupassen und diese danach zu Speichern. Dazu stehen dem Anwender die Optionen zum Anpassen der Helligkeit, der Sättigung, die Umkehrung der Farben und der Einstellung verschiedener Graustufen zur Verfügung. Zum Einstellen kann der Anwender einen Slider verwenden, dabei werden die einzelnen Einstellungen separat gespeichert um eine Überlagerung der Filter zu ermöglichen.
+Mit dem Programm ist es möglich eine Bild Datei anzupassen und diese danach zu Speichern. Dazu stehen dem Anwender die Optionen zum Anpassen der Helligkeit, der Sättigung, die Umkehrung der Farben und der Einstellung verschiedener Graustufen zur Verfügung. Zum Einstellen kann der Anwender einen Slider verwenden, dabei werden die einzelnen Filter separat gespeichert um eine Überlagerung dieser zu ermöglichen.
 
 Außerdem ist es möglich das Bild nach Links oder Rechts jeweils um 90 Grad zu drehen und Horizontal sowie Vertikal zu Kippen.
 
-Nach Abschluss der Bearbeitung kann der Anwender die Geänderte Datei Speichern Dabei wird direkt ein Download der entsprechenden Datei ausgelöst.
+Nach Abschluss der Bearbeitung kann der Anwender die Geänderte Datei Speichern, dabei wird direkt ein Download der entsprechenden Datei ausgelöst.
 
 ## Bild der Oberfläche:
 
