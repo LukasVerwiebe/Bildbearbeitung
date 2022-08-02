@@ -10,18 +10,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   </head>
   <body>
+    <!-- Hauptcontainer in dem die Anwendung zusammengefasst ist -->
     <div class="container disable">
       <h2>Bildbearbeitungsprogramm</h2>
+      <!-- Container für die Bildanzeige und das Menü -->
       <div class="wrapper">
+        <!-- Container für das gesamte Filter Menü -->
         <div class="editor-eingabe">
+          <!-- Container für die Filter Button und den Slider -->
           <div class="filter">
             <label class"title">Filter</label>
+            <!-- Container mit den Filter Button
+            Funktionen: Helligkeit, Sättigung, Umkehrung und Graustufen -->
             <div class="optionen">
               <button id="Helligkeit" class="aktiv">Helligkeit</button>
               <button id="Sättigung">Sättigung</button>
               <button id="Umkehrung">Umkehrung</button>
               <button id="Graustufen">Graustufen</button>
             </div>
+            <!-- Slider für das Einstellen der Filter
+            Besonderheiten: Helligkeit und Sättigung bis 200%,
+             Umkehrung und Graustufen bis 100% -->
             <div class="slider">
               <div class="filter-info">
                 <p class="name">Helligkeit</p>
@@ -30,9 +39,12 @@
               <input type="range" value="100" min="0" max="200">
             </div>
           </div>
+          <!-- Button für die drehen Funtkionalaität
+          Funktionen: nach links, nach rechts, Horizontal und Vertikal drehen -->
           <div class="drehen">
             <label class"title">Drehen & Kippen</label>
             <div class="optionen">
+              <!-- Für die Icons der Beutton wurde FontAwesome und BoxIcon verwendet -->
               <button id="links"><i class="fa-solid fa-rotate-left"></i></button>
               <button id="rechts"><i class="fa-solid fa-rotate-right"></i></button>
               <button id="horizontal"><i class="bx bx-reflect-vertical"></i></button>
@@ -40,10 +52,14 @@
             </div>
           </div>
         </div>
+        <!-- Fläche in dem das eingefügte Bild angezeigt wird,
+         hier wird zuerst ein Platzhalter PNG angezeigt -->
           <div class="vorschaubild">
             <img src="platzhalter.png" alt="vorschaubild">
           </div>
         </div>
+        <!-- Button am unteren Ende des Containers
+        Funktionen: Speichern, Datei Öffnen und Filter Zurücksetzen-->
         <div class="steuerung">
           <button class="filter-zurücksetzen">Zurücksetzen</button>
           <div class="zeile">
@@ -53,7 +69,7 @@
           </div>
         </div>
     </div>
-
+    <!-- Aufruf des JavaScripts -->
     <script src="script.js"></script>
 
   </body>
