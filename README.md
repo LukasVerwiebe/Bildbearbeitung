@@ -5,6 +5,7 @@ Das Programm kann Online über den folgenden Link abgerufen werden: https://luka
 
 
 Funktionsumfang:
+
 Mit dem Programm ist es möglich eine Bild Datei anzupassen und diese danach zu Speichern. Dazu stehen dem Anwender die Optionen zum Anpassen der Helligkeit, der Sättigung, die Umkehrung der Farben und der einstellung verschiedener Graustufen zur Verfügung. Zum einstellen kann der Anwender einen Slider verwenden, dabei werden die einzelen Einstellungen seperat gespeichert um eine Überlagerung der Filter zu ermöglichen.
 
 Außerdem ist es möglich das Bild nach Links oder Rechts jeweils um 90 Grad zu drehen und Horizontal sowie Vertiakl zu Kippen.
