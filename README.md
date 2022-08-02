@@ -4,7 +4,8 @@ Ein einfacher Editor mit dem Bilder Bearbeitet werden können. Das Program wurde
 Das Programm kann Online über den folgenden Link abgerufen werden: https://lukasverwiebe.github.io/Bildbearbeitung/
 
 
-Funktionsumfang:
+
+##Funktionsumfang:
 
 Mit dem Programm ist es möglich eine Bild Datei anzupassen und diese danach zu Speichern. Dazu stehen dem Anwender die Optionen zum Anpassen der Helligkeit, der Sättigung, die Umkehrung der Farben und der einstellung verschiedener Graustufen zur Verfügung. Zum einstellen kann der Anwender einen Slider verwenden, dabei werden die einzelen Einstellungen seperat gespeichert um eine Überlagerung der Filter zu ermöglichen.
 
