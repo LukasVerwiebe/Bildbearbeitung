@@ -11,6 +11,6 @@ Außerdem ist es möglich das Bild nach Links oder Rechts jeweils um 90 Grad zu 
 
 Nach Abschluss der Bearbeitung kann der Anwender die Geänderte Datei Speichern Dabei wird direkt ein Download der entsprechenden Datei ausgelöst.
 
-## Bild
+## Bild der Oberfläche
 
 ![image](https://user-images.githubusercontent.com/63674539/182448990-b325aa27-22bf-4f02-8ae5-564f65667d8b.png)
