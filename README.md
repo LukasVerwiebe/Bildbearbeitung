@@ -1,4 +1,4 @@
-# Bild Editor
-Ein einfacher Editor mit dem Bilder Bearbeitet werden können.
+# Bildbearbeitungsprogramm
+Ein einfacher Editor mit dem Bilder Bearbeitet werden können. Das Program wurde mit HTML, CSS und JavaScript erstellt.
 
-https://lukasverwiebe.github.io/BildEditor/
+https://lukasverwiebe.github.io/Bildbearbeitungsprogramm/
