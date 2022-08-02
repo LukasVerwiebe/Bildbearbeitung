@@ -11,17 +11,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   </head>
   <body>
-    <div class="container">
+    <div class="container disable">
       <h2>Bild-Editor</h2>
       <div class="wrapper">
         <div class="editor-eingabe">
           <div class="filter">
             <label class"title">Filter</label>
             <div class="optionen">
-              <button class="aktiv">Helligkeit</button>
-              <button>Sättigung</button>
-              <button>Umkehrung</button>
-              <button>Graustufen</button>
+              <button id="Helligkeit" class="aktiv">Helligkeit</button>
+              <button id="Sättigung">Sättigung</button>
+              <button id="Umkehrung">Umkehrung</button>
+              <button id="Graustufen">Graustufen</button>
             </div>
             <div class="slider">
               <div class="filter-info">
@@ -34,10 +34,10 @@
           <div class="drehen">
             <label class"title">Drehen & Kippen</label>
             <div class="optionen">
-              <button><i class="fa-solid fa-rotate-left"></i></button>
-              <button><i class="fa-solid fa-rotate-right"></i></button>
-              <button><i class="bx bx-reflect-vertical"></i></button>
-              <button><i class="bx bx-reflect-horizontal"></i></button>
+              <button id="links"><i class="fa-solid fa-rotate-left"></i></button>
+              <button id="rechts"><i class="fa-solid fa-rotate-right"></i></button>
+              <button id="horizontal"><i class="bx bx-reflect-vertical"></i></button>
+              <button id="vertikal"><i class="bx bx-reflect-horizontal"></i></button>
             </div>
           </div>
         </div>
@@ -48,10 +48,14 @@
         <div class="steuerung">
           <button class="filter-zurücksetzen">Zurücksetzen</button>
           <div class="zeile">
+            <input type="file" class="datei-oeffnen" accept="image/*" hidden>
             <button class="weahle-bild">Datei öffnen</button>
             <button class="speicher-bild">Speichern</button>
           </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
+
   </body>
 </html>

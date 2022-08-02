@@ -20,6 +20,11 @@ body {
   padding: 30px 35px 35px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
+.container.disable :where(.editor-eingabe, .filter-zurücksetzen,
+  .speicher-bild) {
+  opacity: 0.6;
+  pointer-events: none;
+}
 .container h2 {
   font-size: 22px;
   font-weight: 500;
@@ -91,6 +96,7 @@ body {
 .wrapper .vorschaubild {
   flex-grow: 1;
   display: flex;
+  overflow: hidden;
   align-items: center;
   justify-content: center;
   margin-left: 20px;
